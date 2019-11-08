@@ -1,0 +1,26 @@
+{
+  "name": "@mrbrianhinton/VueJsBoilerplatePlayjs",
+  "version": "1.0.0",
+  "description": "Starting Vue.js boilerplate project for Play.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.dev.js"
+  },
+  "author": "Brian Hinton",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.x.x",
+    "@babel/preset-env": "7.x.x",
+    "babel-loader": "8.x.x",
+    "css-loader": "^3.2.0",
+    "express": "4.16.x",
+    "file-loader": "^4.2.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "4.15.*",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-middleware": "3.7.x"
+  }
+}
