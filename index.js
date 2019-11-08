@@ -2,11 +2,9 @@ const express = require('express');
 const webpack = require('webpack');
 const webpackMiddleware = require('webpack-dev-middleware');
 
-const APP_PORT = process.env['REACT_APP_PORT'];
-
 // Setup
 const app = express();
-const port = APP_PORT;
+const port = process.env['REACT_APP_PORT'];
 const config = require('./webpack.config.dev.js');
 const compiler = webpack(config);
 const middleware = webpackMiddleware(compiler, {
